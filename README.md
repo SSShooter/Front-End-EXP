@@ -27,8 +27,9 @@
     typeof [] === 'object' // true
     typeof null === 'object' // true
     ```
-- import 同步，require异步（待补充）
-- `new()` 做了些什么？
+- ~~import 同步，require异步（待补充）~~     
+    在 issue 中讨论后确定这一条的定义没有意义，不过可以确定的是 require 可以适用于异步加载，两者更多区别可以在[这里](https://stackoverflow.com/questions/31354559/using-node-js-require-vs-es6-import-export/31355283#31355283)了解。
+- `new()` 做了些什么？ 
     ```javascript
     var obj = new Base();
     var obj  = {};
