@@ -129,7 +129,7 @@
 - 滚动条样式可能使滚动条强制显示（未确定）
 - flex 布局不换行加 `flex-shrink: 0;` 实现 div 不压缩无限并排，可以用于 swiper 等场景。
 - 巧用猫头鹰选择器 * + * 
-- `float` 自带 `display: block`
+- `float` 自带 `display: inline-block`
 - 鼠标禁用 `.disabled { pointer-events: none; }`
 - 注意 :last-child 与 :last-of-type 的区别
 - ::after 表示法是在 CSS3 中引入的，:: 符号是用来区分伪类和伪元素的。支持CSS3的浏览器同时也都支持 CSS2 中引入的表示法 :after。
