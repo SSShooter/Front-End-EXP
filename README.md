@@ -72,11 +72,11 @@
     ```css
     @keyframes animate-name{
         from{
-        <!--原位-->
+        // 原位
             background-position: 0 0; 
         }
         to{
-        <!--最后一帧-->
+        // 最后一帧
             background-position: -1540px 0 ;
         }
     }
